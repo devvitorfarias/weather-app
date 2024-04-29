@@ -26,7 +26,9 @@ const WeatherScreen = () => {
         }
     }, [location]);
 
-    
+    const fetchForecast = async () => {
+        
+    }
   useEffect(() => {
     (async () => {
       
